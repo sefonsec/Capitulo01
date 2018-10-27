@@ -1,0 +1,11 @@
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Capitulo01\bin\Debug\netcoreapp2.0\Capitulo01.deps.json
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Capitulo01\bin\Debug\netcoreapp2.0\Capitulo01.runtimeconfig.json
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Capitulo01\bin\Debug\netcoreapp2.0\Capitulo01.runtimeconfig.dev.json
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Capitulo01\bin\Debug\netcoreapp2.0\Capitulo01.dll
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Capitulo01\obj\Debug\netcoreapp2.0\Capitulo01.csprojResolveAssemblyReference.cache
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Capitulo01\obj\Debug\netcoreapp2.0\Capitulo01.csproj.CoreCompileInputs.cache
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Capitulo01\obj\Debug\netcoreapp2.0\Capitulo01.AssemblyInfoInputs.cache
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Capitulo01\obj\Debug\netcoreapp2.0\Capitulo01.AssemblyInfo.cs
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Capitulo01\bin\Debug\netcoreapp2.0\Capitulo01.pdb
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Capitulo01\obj\Debug\netcoreapp2.0\Capitulo01.dll
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Capitulo01\obj\Debug\netcoreapp2.0\Capitulo01.pdb

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Modelo.Docente.CursoProfessor>
+
+@{ 
+    Layout = "_LayoutIES";
+}
+
+<div class="card-block">
+    <div class="card-header text-white bg-primary text-center h1">
+        VerificarUltimosRegistros
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Curso)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Professor)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Curso.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Professor.Nome)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="card-footer bg-success text-center">
+        <a asp-action="AdicionarProfessor" class="btn-success">Voltar para Adicionar Professor</a>
+    </div>
+</div>

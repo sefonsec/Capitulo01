@@ -1,0 +1,9 @@
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Modelo\bin\Debug\netcoreapp2.0\Modelo.deps.json
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Modelo\bin\Debug\netcoreapp2.0\Modelo.dll
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Modelo\bin\Debug\netcoreapp2.0\Modelo.pdb
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Modelo\obj\Debug\netcoreapp2.0\Modelo.csprojResolveAssemblyReference.cache
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Modelo\obj\Debug\netcoreapp2.0\Modelo.csproj.CoreCompileInputs.cache
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Modelo\obj\Debug\netcoreapp2.0\Modelo.AssemblyInfoInputs.cache
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Modelo\obj\Debug\netcoreapp2.0\Modelo.AssemblyInfo.cs
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Modelo\obj\Debug\netcoreapp2.0\Modelo.dll
+C:\Meus Arquivos\ASP.NET Core\Capitulo01\Modelo\obj\Debug\netcoreapp2.0\Modelo.pdb

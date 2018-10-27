@@ -1,0 +1,37 @@
+﻿@model Modelo.Cadastros.Curso
+
+@{
+    Layout = "_LayoutIES";
+}
+
+<div class="card-block">
+    <div class="card-header text-white bg-secondary text-center h1">
+        Alterando um curso existente
+    </div>
+    <div class="card-body">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CursoID" />
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DepartamentoID" class="control-label"></label>
+                <select asp-for="DepartamentoID" class="form-control" asp-items=@ViewBag.Departamentos ></select>
+            </div>
+            <div class="form-group text-center h3">
+                <input type="submit" value="Atualizar Curso" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-warning">Retornar à listagem de cursos</a>
+            </div>
+        </form>
+    </div>
+    <div class="card-footer bg-info text-center text-white">
+        Informe os dados acima e/ou clique em um dos botões de ação
+    </div>
+</div>
+
+@section ScriptPage {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,30 @@
+﻿@model Modelo.Cadastros.Curso
+
+<div class="card-body">        
+    <div class="form-group">
+        <label asp-for="CursoID" class="control-label"></label>
+        <br />
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="fa fa-key" aria-hidden="true"></i>
+            </span>
+            <input asp-for="CursoID" class="form-control" disabled="disabled" />
+        </div>
+        <label asp-for="Nome" class="control-label"></label>
+        <br />
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            </span>
+            <input asp-for="Nome" class="form-control" disabled="disabled" />
+        </div>
+        <label asp-for="Departamento.Nome" class="control-label"></label>
+        <br />
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            </span>
+            <input asp-for="Departamento.Nome" class="form-control" disabled="disabled" />
+        </div>
+    </div>
+</div>
